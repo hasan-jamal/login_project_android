@@ -139,6 +139,7 @@ public class MainActivity extends AppCompatActivity  {
                         @Override
                         public void run() {
                             Toast.makeText(MainActivity.this, "Login successful!", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(MainActivity.this,SecondActivity.class));
                             // Handle successful login, e.g., navigate to the next activity
                         }
                     });
