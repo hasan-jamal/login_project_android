@@ -1,17 +1,15 @@
 package com.example.google_login;
 
-import androidx.appcompat.app.AppCompatActivity;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.telecom.Call;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.gms.common.api.Response;
-import com.google.gson.Gson;
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.io.IOException;
+
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.FormBody;
